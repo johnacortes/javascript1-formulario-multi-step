@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 2</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="container-formulario" id="form2">
+
+       <h2>Which topics you are interested in?</h2>
+
+       <form id="formulario-2">
+        <input type="text" class="topic opciones" onclick="manejarClickTopic('Software Development')" id="opcion1" name="Software Development" value="    Software Development" readonly><br><br>
+        <input type="text" class="topic opciones" onclick="manejarClickTopic('User Experience')" id="opcion2" name="User Experience" value="    User Experience" readonly><br><br>
+        <input type="text" class="topic opciones" onclick="manejarClickTopic('Graphic Design')" id="opcion3" name="Graphic Design" value="    Graphic Design" readonly><br><br>
+       </form>
+
+       <button type="button" class="button" onclick="accionButton2('buttonf2')" id="button-f2">Continuar</button>
+
+    </div><br>
+
+    <p>Paso 2 de 3  <span class="circulo circulo1"></span>  <span class="circulo circulo2"></span>   <span class="circulo"></span></p>
+    
+<script src="formularios.js"></script>
+
+</body>
+
+</html>

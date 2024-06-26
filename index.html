@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <div class="container-formulario" id="form1">
+        <h2>Registrarse</h2>
+        
+        <form action="/procesar_registro" method="POST">
+            <label class="label" form="nombre">Nombre</label><br>
+            <input type="text" class="opciones" onclick="accionInputNombre('nombre')" id="nombre" name="nombre"  placeholder="    ingrese su nombre" required><br><br>
+
+            <label class="label" form="email">Correo Electronico</label><br>
+            <input type="email" class="opciones" onclick="accionInputCorreo('email')" id="email" name="email" placeholder="    ejemplo@gmail.com" required>
+        </form><br>
+
+        <button type="button" class="button" onclick="accionButton1('buttonf1')"  id="button-f1">Continuar</button>
+    </div><br>
+        
+    <p>Paso 1 de 3  <span class="circulo circulo1"></span>  <span class="circulo"></span>   <span class="circulo"></span></p>
+ 
+<script src="formularios.js"></script>
+
+</body>
+</html>
