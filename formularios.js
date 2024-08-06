@@ -1,3 +1,4 @@
+
 var nombreIngresado;
 var correoIngresado;
 
@@ -17,6 +18,8 @@ function accionButton1(buttonf1) {
   var expresionCorre = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   if (nombreIngresado.length > 3) {
     if (expresionCorre.test(correoIngresado)) {
+      document.getElementById("email").value = "";
+      document.getElementById("nombre").value = "";
       window.location.href = "indexf2.html";
       sessionStorage.setItem("nombre", nombreIngresado);
       sessionStorage.setItem("correo", correoIngresado);
@@ -86,6 +89,5 @@ if (document.getElementById("h2")) {
 
 function confirmarEnvio(confirmar) {
   alert("El registro ha sido exitoso.");
+  window.location.href = "index.html";
 }
-
-console.log(23);
