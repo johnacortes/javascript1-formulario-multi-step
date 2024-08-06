@@ -1,144 +1,157 @@
+html,
 body {
-   background-color: #121826;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-direction: column;
+  background-color: #121826;
+  display: flex;
+  height: 100%;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.container-principal {
+  display: flex;
+  width: auto;
+  height: auto;
+  margin: 0;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .container-formulario {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 470px;
-    height: 400px;
-    background-color: #212936;
-    margin-top: 70px;
-    margin-bottom: 0;
-    border: 1px solid;
-    border-radius: 10px;
-    border-color: #4D5562;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 470px;
+  height: 400px;
+  background-color: #212936;
+  margin-bottom: 0;
+  border: 1px solid;
+  border-radius: 10px;
+  border-color: #4d5562;
 }
 
 h2 {
-    font-family: "inter", sans-serif;
-    font-size: 20px;
-    align-self: flex-start;
-    margin-left: 45px;
-    color: #E5E7EB;
-    margin-bottom: 40px;
+  font-family: "inter", sans-serif;
+  font-size: 20px;
+  align-self: flex-start;
+  margin-left: 45px;
+  color: #e5e7eb;
+  margin-bottom: 40px;
 }
 
-
 .opciones {
-    color: #A1A1A9;
-    width: 370px;
-    height: 40px;
-    margin-top: 7px;
-    background-color: #212936;
-    border: 2px solid;
-    border-color: #4D5562;
-    border-radius: 10px;
-    padding: 10px;
+  color: #a1a1a9;
+  width: 370px;
+  height: 40px;
+  margin-top: 7px;
+  background-color: #212936;
+  border: 2px solid;
+  border-color: #4d5562;
+  border-radius: 10px;
+  padding: 10px;
 }
 
 .opciones:focus {
-    background-color: #652CD1;
-    color: white;
+  background-color: #652cd1;
+  color: white;
 }
 
 .label {
-    color: #A1A1A9;
+  color: #a1a1a9;
 }
 
 .button {
-    width: 130px;
-    height: 40px;
-    border-radius: 20px;
-    border: 0;
-    background-color: #652CD1;
-    color:  #E5E7EB;
+  width: 130px;
+  height: 40px;
+  border-radius: 20px;
+  border: 0;
+  background-color: #652cd1;
+  color: #e5e7eb;
 }
 
 .circulo {
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%; 
-    background-color: #4D5562;
-    margin-right: 10px;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #4d5562;
+  margin-right: 10px;
 }
 
 .circulo1 {
-    margin-left: 30px;
-    background-color: #652CD1;
+  margin-left: 30px;
+  background-color: #652cd1;
 }
 
- p {
-    margin-right: 100px;
-    margin-top: 0;
-    color: #4D5562;
- }
+p {
+  margin-right: 100px;
+  margin-top: 0;
+  color: #4d5562;
+}
 
 /*formulario-2*/
 
 .input:focus {
-    background-color: #652CD1;
-    color: white;
+  background-color: #652cd1;
+  color: white;
 }
 
 .circulo2 {
-    background-color: #652CD1;
+  background-color: #652cd1;
 }
 
 /*formulario3*/
 
 .circulo3 {
-    background-color: #652CD1;
+  background-color: #652cd1;
 }
 
 .tables {
-    font-size: 20px;
-    align-self: flex-start;
-    margin-left: 45px;
-    color: #A1A1A9;
-    margin-top: 0%;
+  font-size: 20px;
+  align-self: flex-start;
+  margin-left: 45px;
+  color: #a1a1a9;
+  margin-top: 0%;
 }
 
 #topics {
-    font-size: 20px;
-    margin-left: 50px;
-    align-self: flex-start;
-    color: #A1A1A9;
-    margin-top: 0%;
+  font-size: 20px;
+  margin-left: 50px;
+  align-self: flex-start;
+  color: #a1a1a9;
+  margin-top: 0%;
 }
 
 #h2 {
-    margin-bottom: 0%;
+  margin-bottom: 0%;
 }
 
 .salidas {
-    color: white;
+  color: white;
 }
 
 #button-f3 {
-    margin-top: 30px;
-    margin-bottom: 0%;
+  margin-top: 30px;
+  margin-bottom: 0%;
 }
 
 .button-azul {
-    background-color: #652CD1;
-    color: white;
+  background-color: #652cd1;
+  color: white;
 }
 
 .punto-blanco {
-    display: inline-block;
-    width: 5px;
-    height: 5px;
-    margin-bottom: 3px;
-    margin-right: 5px;
-    border-radius: 50%;
-    background-color: white;
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  margin-bottom: 3px;
+  margin-right: 5px;
+  border-radius: 50%;
+  background-color: white;
 }
